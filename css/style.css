@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(39, 95, 39);
+}
+.card{
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    height: 380px;
+    font-size: 80px;
+    width: 250px;
+    padding:20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.card .spades::before{
+    content: '\2660';
+    display: block;
+    width: 100;
+    text-align: left;
+}
+.card .spades::after{
+    content: '\2660';
+    display: block;
+    width: 100;
+    text-align: right;
+}
+.card .hearts::before{
+    content: '\2665';
+    display: block;
+    width: 100;
+    text-align: left;
+    color:red;
+}
+.card .hearts::after{
+    content: '\2665';
+    display: block;
+    width: 100;
+    text-align: right;
+    color:red;
+}
+.card .clubs::before{
+    content: '\2663';
+    display: block;
+    width: 100;
+    text-align: left;
+}
+.card .clubs::after{
+    content: '\2663';
+    display: block;
+    width: 100;
+    text-align: right;
+}
+.card .diamonds::before{
+    content: '\2666';
+    display: block;
+    width: 100;
+    text-align: left;
+    color:red;
+}
+.card .diamonds::after{
+    content: '\2666';
+    display: block;
+    width: 100;
+    text-align: right;
+    color:red;
+}
